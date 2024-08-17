@@ -1,0 +1,62 @@
+.footer {
+	background-image: url(/src/navbar/keyboard.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	padding: 10vh 0vh 10vh 0vh;
+	margin-top: 10px;
+	background-color: gray;
+	color: white;
+}
+
+.footer-ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+}
+
+.footer-ul > * {
+	margin: 20px;
+	list-style: none;
+}
+
+#footer-ul-smLinks i {
+	/* margin: 0px 20px; */
+	background-color: hwb(208 94% 0% / 0.5);
+	padding: 6px;
+	width: 48px;
+	border-radius: 60%;
+}
+#footer-ul-smLinks i:not(:last-child) {
+	margin: 0px 20px 0px 0px;
+}
+#footer-ul-smLinks i:hover {
+	background-color: hwb(208 94% 0% / 0.75);
+	transition: ease-in-out 0.4s;
+}
+
+.fa {
+	font-size: 32px;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.footer-li h1 {
+		font-size: 25px;
+		display: none;
+	}
+	.footer-ul {
+		flex-direction: column;
+	}
+	.footer-ul > * {
+		margin: 5px;
+	}
+	#footer-ul-smLinks {
+		display: flex;
+	}
+	.footer {
+		padding: 3vh 0vh 3vh 0vh;
+	}
+}
