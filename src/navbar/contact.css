@@ -50,7 +50,7 @@
 }
 .number{
    line-height: 20px;
-   margin-left: 50px;
+   margin-left: 60px;
 }
 .social-media{
 	display: flex;
@@ -72,3 +72,5 @@
 .media:hover{
     filter: brightness(70%);
 }
+
+
