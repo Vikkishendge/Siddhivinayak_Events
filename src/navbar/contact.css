@@ -24,53 +24,30 @@
 	font: bold;
 	font-size: 100px;
 }
-
-.contact-info{
-   margin-top: 20px;
-
-}
-.contact{
-    
-   
-	margin-left:50px;
-	
-}
-.phone-holder{
-
-	display:flex;
-	flex-wrap: nowrap;
-	margin-top: 40px;
-	
-	
+.main-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-.phone-holder li{
-	list-style: none;
-	margin-left: 10px;
-}
-.number{
-   line-height: 20px;
-   margin-left: 60px;
-}
-.social-media{
+.phone-holder {
 	display: flex;
-}
-.media{
-	width: 14%;
-	height: 6vh;
-	border-radius: 3px;
-	margin-left: 15px;
-	position: relative;
-	cursor: pointer;
-	transition: 0.5s;
-}
-.media h3{
 	text-align: center;
-	margin-top: 9px;
-	color: white;
+	align-items: center;
+	margin-bottom: 5px;
 }
-.media:hover{
-    filter: brightness(70%);
+.phone-holder > *:first-child {
+	margin-right: 20px;
+}
+.media {
+	display: flex;
+	width: max-content;
 }
 
+li {
+	list-style: none;
+}
 
+.phone-div > * {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
