@@ -1,12 +1,8 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-<<<<<<< HEAD
 	font-family: "Crimson Pro" sarif;
-=======
-	font-family: "Crimson Pro", serif;
->>>>>>> 81b378316e5afe76113544cdec7e20535bd75b8a
 }
 
 .main {
@@ -56,4 +52,18 @@
 	z-index: 1;
 	transition: 0.5s ease-in;
 	box-shadow: 3px 3px 10px black;
+}
+
+@media (max-width: 600px) {
+	.main {
+		width: 100%;
+		height: 40vh;
+	}
+	.bgimg h1 {
+		font-size: 60px;
+	}
+	.bgimg img {
+		width: 100%;
+		height: 35vh;
+	}
 }
