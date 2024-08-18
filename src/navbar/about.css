@@ -72,9 +72,6 @@
 	line-height: 40px;
 }
 
-<<<<<<< HEAD
-
-=======
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -109,4 +106,3 @@
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
->>>>>>> 519eb51240057670f57085c40cd82c7d892f0f8b
