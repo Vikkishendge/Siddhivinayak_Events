@@ -56,6 +56,10 @@
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	border-radius: 15px;
 }
+
+.content p{
+	font-weight: 400px;
+}
 .list {
 	margin: 18px;
 }
