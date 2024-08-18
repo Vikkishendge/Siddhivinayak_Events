@@ -20,7 +20,11 @@
 	margin: 20px;
 	list-style: none;
 }
-
+.footer-li h1 {
+	font-style: italic;
+	font-weight: 800;
+	font-size: 40px;
+}
 #footer-ul-smLinks i {
 	background-color: hwb(208 94% 0% / 0.5);
 	padding: 6px;
