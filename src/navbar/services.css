@@ -55,7 +55,10 @@ h2 {
 .card:hover {
 	color: black;
 	transition: 1s ease-out;
+<<<<<<< HEAD
 	cursor: pointer;
+=======
+>>>>>>> b39f8d5dbfa663a13bb1c15f87a1697142549e5c
 }
 
 .card img {
