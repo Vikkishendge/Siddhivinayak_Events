@@ -47,6 +47,7 @@
 	align-items: center;
 	margin-bottom: 7px;
 	/* color: white; */
+	color: #696969;
 }
 .media > *:first-child {
 	margin-right: 10px;
@@ -60,11 +61,12 @@
 	cursor: pointer;
 }
 .media:hover h3 {
-	color: #808080;
-	transition: all 0.5s;
+	color: black;
+	transition: all 0.3s;
 }
 .media i {
-	font-size: 25px;
+	width: 35px;
+	aspect-ratio: 1/1;
 }
 li {
 	list-style: none;
@@ -76,4 +78,8 @@ li {
 	margin-right: 20px;
 	border-bottom: 1px solid black;
 	margin-bottom: 40px;
+}
+
+.number {
+	margin-left: 60px;
 }
