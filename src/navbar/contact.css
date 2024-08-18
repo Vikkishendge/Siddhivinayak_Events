@@ -22,11 +22,12 @@
 	color: white;
 	z-index: 997;
 	font: bold;
-	font-size: 100px;
+	/* font-size: 100px; */
 }
 .main-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	margin: 20px;
 }
 
 .phone-holder {
@@ -41,24 +42,38 @@
 .media {
 	display: flex;
 	width: max-content;
-	padding: 7px;
+	padding: 4px 7px;
 	text-align: center;
 	align-items: center;
-	margin-bottom: 5px;
-	color: white;
+	margin-bottom: 7px;
+	/* color: white; */
 }
 .media > *:first-child {
-	margin-right: 7px;
+	margin-right: 10px;
+	padding: 2px 4px;
+	aspect-ratio: 1/1;
+	text-align: center;
+	align-items: center;
 }
+
 .media:hover {
 	cursor: pointer;
 }
-
+.media:hover h3 {
+	color: #808080;
+	transition: all 0.5s;
+}
+.media i {
+	font-size: 25px;
+}
 li {
 	list-style: none;
 }
 
 .phone-div > * {
+	padding-bottom: 5px;
 	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-right: 20px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
 }
