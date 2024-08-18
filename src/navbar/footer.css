@@ -1,11 +1,10 @@
 .footer {
-	background-image: url(/src/images/footer-image/footer-img.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 100%;
-	padding: 10vh 0vh 10vh 0vh;
+	padding: 5vh 0vh 5vh 0vh;
 	margin-top: 10px;
-	background-color: gray;
 	color: white;
 }
 
@@ -23,7 +22,6 @@
 }
 
 #footer-ul-smLinks i {
-	/* margin: 0px 20px; */
 	background-color: hwb(208 94% 0% / 0.5);
 	padding: 6px;
 	width: 48px;
