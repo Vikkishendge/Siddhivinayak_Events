@@ -22,7 +22,7 @@
 	color: white;
 	z-index: 997;
 	font: bold;
-	/* font-size: 100px; */
+	font-size: 100px;
 }
 .main-container {
 	display: grid;
@@ -73,7 +73,6 @@ li {
 }
 
 .phone-div > * {
-	padding-bottom: 15px;
 	margin-left: 10px;
 	margin-right: 20px;
 	border-bottom: 1px solid black;
@@ -82,4 +81,11 @@ li {
 
 .number {
 	margin-left: 60px;
+}
+.address p {
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.map iframe {
+	margin-left: 40px;
 }
