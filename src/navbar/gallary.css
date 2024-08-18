@@ -2,7 +2,11 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+<<<<<<< HEAD
 	font-family: "Crimson Pro" sarif;
+=======
+	font-family: "Crimson Pro", serif;
+>>>>>>> 81b378316e5afe76113544cdec7e20535bd75b8a
 }
 
 .main {
