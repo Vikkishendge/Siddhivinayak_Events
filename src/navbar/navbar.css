@@ -5,7 +5,9 @@
 	font-family: sans-serif;
 	font-family: "Crimson Pro", serif;
 }
-
+.fa-solid {
+	display: none;
+}
 nav {
 	padding: 10px 30px;
 	display: flex;
