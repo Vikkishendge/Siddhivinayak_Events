@@ -4,18 +4,55 @@
 	font-family: "Crimson Pro", serif;
 }
 
+body {
+	background: linear-gradient(
+		-45deg,
+		#ff8fab,
+		#bb9ab1,
+		#eeceb9,
+		#ff97b7,
+		#ffb3c6
+	);
+	-webkit-animation: gradient 20s infinite ease-in-out;
+	background-size: 600% 100%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 50% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	75% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .main-component {
 	/* position: relative; */
 	/* display: flex; */
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 150px;
+
 	justify-content: center;
 	text-align: center;
+
+	color: #da7297;
 }
+
 .component-logo {
 	font-size: 50px;
 }
-
+.inner-component-header {
+	color: white;
+	letter-spacing: 1px;
+}
 .inner-component-img {
 	margin-bottom: 50px;
 	width: 100%;
@@ -23,9 +60,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
-
 
 .get-started-btn-div {
 	/* position: absolute; */
@@ -36,23 +71,29 @@
 	font-size: 40px;
 }
 .get-started-btn-div p {
+	color: white;
+	letter-spacing: 1px;
 	font-size: 20px;
 }
 .get-started-content {
 	margin: 20px;
 }
 .get-started-btn {
-	padding: 10px;
-	background-color: rgba(144, 238, 144, 1);
-	color: black;
+	margin-top: 10px;
+	padding: 15px 20px;
+	color: gray;
 	font-weight: 700;
-	border: none;
-	border-radius: 5px;
+	border: 2.5px solid gray;
+	/* border-radius: 5px; */
+	background-color: rgba(128, 128, 128, 0.3);
 }
 
 .get-started-btn:hover {
+	transition: 0.2s ease-in-out;
 	cursor: pointer;
-	background-color: palegreen;
+	background-color: transparent;
+	text-decoration: underline;
+	/* color: #da7297; */
 }
 .services-ul-div {
 	margin: 30px;
@@ -88,24 +129,26 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 	border-radius: 5px;
+	background-color: white;
+	margin: 100px;
+	padding: 50px 0px;
 }
 .img-container img {
-	width: 100%;
+	width: 70%;
 	aspect-ratio: 1/1;
 	border-radius: 5px;
 }
 
-@media(max-width:600px)
-{
-	.main-component{
-		width: 100%;;
+@media (max-width: 600px) {
+	.main-component {
+		width: 100%;
 	}
 
 	.component-logo {
 		font-size: 30px;
 	}
 
-	.inner-component-header h3{
+	.inner-component-header h3 {
 		font-size: 15px;
 	}
 
@@ -128,5 +171,4 @@
 		aspect-ratio: 1/0.6;
 		object-fit: cover;
 	}
-	
 }

@@ -8,7 +8,7 @@
 .fa-solid {
 	display: none;
 }
-nav {
+/* nav {
 	padding: 10px 30px;
 	display: flex;
 	align-items: center;
@@ -18,11 +18,24 @@ nav {
 	height: 70px;
 	width: 100%;
 	z-index: 999;
+} */
+nav {
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* background: black; */
+	background-color: white;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	z-index: 999;
+	border-bottom: 5px solid gray;
 }
 
-.logo {
+/* .logo {
 	color: #fff;
-}
+} */
 
 nav ul {
 	display: flex;
@@ -37,7 +50,11 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #fff;
+	/* color: #fff; */
+	text-decoration: underline white;
+}
+nav ul li a:hover {
+	text-decoration: underline gray;
 }
 
 .menu-icon {
