@@ -1,3 +1,8 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 .footer {
 	background-color: #1a1a1a;
 	background-repeat: no-repeat;
@@ -6,80 +11,87 @@
 	/* padding: 2vh 0vh 2vh 0vh; */
 	margin-top: 10px;
 	color: white;
+	padding: 20px;
 }
 
 .footer-ul {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 100%;
+	justify-content: space-around;
 }
 
-.footer-ul > * {
-	/* margin: 20px; */
-	list-style: none;
-	padding: 0px 40px;
-	/* border-right: 2px solid white; */
-}
-.footer-li h1 {
-	font-style: italic;
-	font-weight: 800;
-	font-size: 40px;
-}
-.footer-li h1 {
-	font-weight: 500px;
-}
-#footer-ul-smLinks i {
-	background-color: hwb(208 94% 0% / 0.5);
-	padding: 6px;
-	width: 48px;
-	border-radius: 60%;
-}
-#footer-ul-smLinks i:not(:last-child) {
-	margin: 0px 20px 0px 0px;
-}
-#footer-ul-smLinks i:hover {
-	background-color: hwb(208 94% 0% / 0.75);
-	transition: ease-in-out 0.4s;
+.footer-li h3 {
+	font-size: 30px;
 }
 
-.fa {
-	font-size: 32px;
-	color: white;
+.footer-ul li:first-child {
+	flex: 1;
 }
-
-.address p {
-	padding: 5px 15px 5px 5px;
-}
-
 .footer-map-div {
-	text-align: start;
-	margin: 20px 0px;
-	padding-left: 40px;
 	border-left: 2px solid white;
+}
+.smLinks-i {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.fa {
+	font-size: 30px;
+	margin: 0px 5px;
+}
+.footer-map-div {
+	width: 50%;
 	display: flex;
+	justify-content: space-evenly;
+}
+.map iframe {
+	width: 200px;
+	aspect-ratio: 1/0.5;
 }
 
-.map iframe {
-	width: 100%;
-	aspect-ratio: 1/0.35;
+.address h3 {
+	font-size: 30px;
 }
+
 @media (max-width: 600px) {
-	.footer-li h1 {
-		font-size: 25px;
+	.footer {
+		width: 100%;
+	}
+	.map {
 		display: none;
 	}
 	.footer-ul {
 		flex-direction: column;
+		width: 100%;
 	}
-	.footer-ul > * {
-		margin: 5px;
+	.footer-li h3 {
+		font-size: 20px;
+	}
+	.footer-li h4 {
+		font-size: 15px;
+		font-weight: 400;
+	}
+	.footer-map-div {
+		width: 100%;
+		border-left: 0px;
+		border-top: 1px solid white;
 	}
 	#footer-ul-smLinks {
 		display: flex;
+		justify-content: space-around;
+		align-items: center;
 	}
-	.footer {
-		padding: 3vh 0vh 3vh 0vh;
+	.smLinks-i i {
+		margin-left: 40px;
+		align-content: space-between;
+	}
+	.fa {
+		font-size: 25px;
+		margin: 0px 2px;
+	}
+	.address h3 {
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	.address p {
+		font-size: 15px;
 	}
 }
