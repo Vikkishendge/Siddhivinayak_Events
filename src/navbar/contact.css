@@ -113,13 +113,13 @@ li {
 	.phone-div {
 		order: 2;
 	}
-	.map {
+	.contact-map {
 		order: 1;
 		border-bottom: 1px solid black;
 		padding-bottom: 20px;
 		margin-bottom: 10px;
 	}
-	.map iframe {
+	.contact-map iframe {
 		/* width: 50%;
 		aspect-ratio: 1/1; */
 		width: 300px;
