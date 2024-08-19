@@ -84,8 +84,27 @@
 .inner-component-img {
 	margin-top: 50px;
 	width: 100%;
+	/* position: relative; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .inner-component-img img {
 	width: 100%;
+	aspect-ratio: 1/0.4;
+}
+.get-started-btn-div {
+	position: absolute;
+	color: white;
+}
+
+.get-started-btn-div h3 {
+	font-size: 50px;
+}
+.get-started-btn-div p {
+	font-size: 20px;
+}
+.get-started-content {
+	margin: 40px;
 }
 >>>>>>> ab6419d14db9fc1b3b65d3e5d70113edd1fb3899
