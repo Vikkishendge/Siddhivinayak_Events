@@ -8,6 +8,10 @@
 .fa-solid {
 	display: none;
 }
+
+.fa {
+	color: black;
+}
 /* nav {
 	padding: 10px 30px;
 	display: flex;
@@ -51,7 +55,8 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	/* color: #fff; */
-	text-decoration: underline white;
+	padding: 10px 0px;
+	/* text-decoration: underline white; */
 }
 nav ul li a:hover {
 	text-decoration: underline gray;
@@ -61,21 +66,16 @@ nav ul li a:hover {
 	display: none;
 }
 
-.menu-icon i {
-	color: #fff;
-	font-size: 30px;
-}
 @media (max-width: 600px) {
-	.fa-solid {
-	}
 	nav ul {
+		font-size: 40px;
 		position: absolute;
 		top: 70px;
 		left: 0;
 		right: 0;
 		flex-direction: column;
 		text-align: center;
-		background: black;
+		background: whitesmoke;
 		gap: 0;
 		overflow: hidden;
 	}
@@ -83,9 +83,12 @@ nav ul li a:hover {
 		padding: 20px;
 		padding-top: 0;
 	}
+	nav ul li a {
+		text-decoration: none;
+	}
 	.menu-icon {
 		display: block;
-		background-color: #fff;
+		background-color: black;
 		width: 10px;
 		height: 10px;
 	}
