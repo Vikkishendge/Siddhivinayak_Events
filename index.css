@@ -25,7 +25,7 @@
 }
 .inner-component-img img {
 	width: 100%;
-	aspect-ratio: 1/0.25;
+	aspect-ratio: 1/0.4;
 	/* filter: grayscale(100%); */
 	/* filter: sepia(100%); */
 }
@@ -45,8 +45,9 @@
 }
 .get-started-btn {
 	padding: 10px;
-	background-color: peachpuff;
+	background-color: lightgreen;
 	color: black;
 	font-weight: 700;
 	border: 2px solid white;
+	border-radius: 5px;
 }
