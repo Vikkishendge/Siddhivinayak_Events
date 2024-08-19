@@ -48,13 +48,21 @@
 		width: 100%;
 	}
     .title{
-        width: 100%;
         border-bottom: 1px black;
     }
     .title h1 {
 		font-size: 30px;
-		margin: 40px;
+		margin: 30px;
 	}
-
+    
+       
+    .innerdiv{
+        width: 100%;
+        padding: 0px;
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
+        
+    }
     
 }
