@@ -1,12 +1,14 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;
 	font-family: "Crimson Pro", serif;
 }
 
-.main {
+.main-component {
+	/* position: relative; */
+	/* display: flex; */
 	width: 100%;
+<<<<<<< HEAD
 	height: 55vh;
 }
 
@@ -71,3 +73,19 @@
 
 }
 
+=======
+	padding-top: 100px;
+	justify-content: center;
+	text-align: center;
+}
+.main-component {
+}
+
+.inner-component-img {
+	margin-top: 50px;
+	width: 100%;
+}
+.inner-component-img img {
+	width: 100%;
+}
+>>>>>>> ab6419d14db9fc1b3b65d3e5d70113edd1fb3899
