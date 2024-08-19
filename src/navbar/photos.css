@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 .title{
     width: 100%;
@@ -9,8 +10,8 @@
     margin: 20px;
 }
 .title h1{
-    font-family: 'EB Garamond', serif;
-
+    font-weight: 400px;
+    
 }
 
 .outerdiv{
@@ -33,7 +34,7 @@
 }
 .innerdiv img:hover{
     transform: scale(1.1);
-    filter: brightness(70%
-    
-    );
+    filter: brightness(70%);
 }
+
+@me
