@@ -71,31 +71,3 @@
 
 }
 
-
-.home-cards-holder {
-	padding: 0px 20px 20px 20px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card {
-	/* border: 1px solid rgba(128, 128, 128, 0.25); */
-	margin: 20px;
-	margin-bottom: 40px;
-	text-align: center;
-	border-radius: 5px;
-}
-.card:hover {
-	/* color: black; */
-	transition: 1s ease-out;
-	cursor: pointer;
-}
-
-.card img {
-	width: 100%;
-	border-radius: 5px;
-}
-
-
-
-
