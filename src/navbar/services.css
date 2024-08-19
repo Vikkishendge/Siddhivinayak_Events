@@ -49,11 +49,10 @@ h2 {
 	margin: 20px;
 	margin-bottom: 40px;
 	text-align: center;
-	color: gray;
 	border-radius: 5px;
 }
 .card:hover {
-	color: black;
+	/* color: black; */
 	transition: 1s ease-out;
 	cursor: pointer;
 }
@@ -78,6 +77,14 @@ h2 {
 }
 .services-title-div:hover {
 	border-color: #e8b923;
+	cursor: pointer;
+	transition: all 0.5s;
+	color: gray;
+}
+.image:hover ~ .services-title-div {
+	border-color: #e8b923;
+	color: gray;
+	/* color: #e8b923; */
 	cursor: pointer;
 	transition: all 0.5s;
 }
@@ -114,7 +121,11 @@ h2 {
 	}
 	.card img {
 		width: 100%;
-		aspect-ratio: 1/0.75;
+		aspect-ratio: 1/0.6;
 		object-fit: cover;
+	}
+	.services-title-div {
+		color: gray;
+		border-color: #e8b923;
 	}
 }
