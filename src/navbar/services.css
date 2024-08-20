@@ -63,7 +63,7 @@ h2 {
 	width: 100%;
 	aspect-ratio: 1/0.4;
 	margin-bottom: 10px;
-	/* object-fit: cover; */
+	object-fit: cover;
 	border-radius: 5px;
 }
 
