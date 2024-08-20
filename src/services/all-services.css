@@ -1,58 +1,58 @@
 .main-component {
 	/* position: relative; */
-	display: flex;
+	/* display: flex; */
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
 	width: 100%;
 	padding-top: 125px;
 
-	justify-content: space-evenly;
-	align-items: center;
+	justify-content: space-around;
+	/* align-items: center; */
+
 	text-align: start;
 	color: #da7297;
 }
+.logo-img {
+	display: flex;
+	justify-content: center;
+}
 .logo-img img {
-	width: 450px;
+	width: 400px;
+	aspect-ratio: 1/1;
 	border-radius: 5px;
 	transition: 0.2s;
 }
-.logo-img img:hover{
-  filter: brightness(70%);
+.logo-img img:hover {
+	filter: brightness(70%);
 }
 .component-logo {
 	font-size: 50px;
-	
 }
 .inner-component-header {
 	color: gray;
 	letter-spacing: 1px;
-    line-height: 25px;
-    font-size: 20px;
+	line-height: 25px;
+	font-size: 16px;
 }
-.inner-component-img {
-	margin-bottom: 50px;
-	width: 100%;
-	/* position: relative; */
-	display: flex;
-	justify-content: start;
-	align-items: start;
-}
+
 .content {
-	padding: 20px 40px;
-	background-color: white;
+	/* background-color: red; */
+	/* padding: 20px 40px; */
+	/* background-color: white; */
 	/* border-left: 2px solid gray; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0px 0px 20px 0px;
 }
 
-
-.get-started-content {
-	margin: 20px 0px;
+.ul-content {
+	line-height: 25px;
+	/* margin: 30px; */
 }
-
-.ul-content{
-    line-height: 25px;
-    margin: 30px;
-}
-.ul-content li{
-    font-size: 19px;
-    color: gray;
+.ul-content li {
+	font-size: 17px;
+	color: gray;
 }
 
 @media (max-width: 600px) {
@@ -60,14 +60,12 @@
 		width: 100%;
 		display: grid;
 		grid-template-columns: 1fr;
-		
 	}
-    .logo-img{
+	.logo-img {
 		width: 100%;
 		aspect-ratio: 1/0.6;
-		
 	}
-	.logo-img img{
+	.logo-img img {
 		width: 100%;
 		object-fit: cover;
 		margin-top: -55px;
@@ -78,7 +76,6 @@
 		margin-bottom: 10px;
 	}
 
-	
 	.get-started-btn-div h3 {
 		font-size: 25px;
 	}
@@ -86,7 +83,7 @@
 		font-size: 15px;
 	}
 
-	.get-started-btn{
+	.get-started-btn {
 		margin-left: 70px;
 	}
 }
