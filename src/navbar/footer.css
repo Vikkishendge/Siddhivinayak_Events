@@ -34,6 +34,9 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
+.smLinks-i i{
+	color: white;
+}
 
 .fa {
 	font-size: 30px;
