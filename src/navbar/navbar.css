@@ -9,9 +9,6 @@
 	display: none;
 }
 
-.fa {
-	color: black;
-}
 /* nav {
 	padding: 10px 30px;
 	display: flex;
@@ -65,9 +62,7 @@ nav ul li a:hover {
 
 .menu-icon {
 	display: none;
-	
 }
-
 
 @media (max-width: 600px) {
 	nav ul {
@@ -91,8 +86,8 @@ nav ul li a:hover {
 		text-decoration: none;
 	}
 	.menu-icon {
-		display:block;
-		background-color: black;
+		display: block;
+		/* background-color: black; */
 		width: 20px;
 		height: 20px;
 	}

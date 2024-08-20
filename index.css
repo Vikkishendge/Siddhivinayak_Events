@@ -1,22 +1,31 @@
-* {
-	margin: 0px;
-	padding: 0px;
-	font-family: "Crimson Pro", serif;
-}
-
 .main-component {
 	/* position: relative; */
-	display: flex;
-	width: 100%;
+	/* display: flex; */
+	/* margin: 50px; */
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
+	/* width: 100%; */
 	padding-top: 125px;
-	justify-content: space-evenly;
-	align-items: center;
-	text-align: start;
-	color: #da7297;
-}
 
+	justify-content: space-around;
+	/* align-items: center; */
+
+	text-align: start;
+	color: #f9564f;
+	margin: 0px 40px 40px 40px;
+}
+.logo-img {
+	display: flex;
+	justify-content: center;
+}
 .logo-img img {
-	width: 300px;
+	width: 400px;
+	aspect-ratio: 1/1;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+.logo-img img:hover {
+	filter: brightness(70%);
 }
 .component-logo {
 	font-size: 50px;
@@ -24,96 +33,73 @@
 .inner-component-header {
 	color: gray;
 	letter-spacing: 1px;
+	line-height: 25px;
+	font-size: 18px;
 }
 .inner-component-img {
-	margin-bottom: 50px;
-	width: 100%;
-	/* position: relative; */
-	display: flex;
-	justify-content: start;
-	align-items: start;
+	margin-top: 20px;
+}
+footer {
+	position: absolute;
+	bottom: 0;
 }
 .content {
-	padding: 20px 40px;
-	background-color: white;
+	/* background-color: red; */
+	/* padding: 20px 40px; */
+	/* background-color: white; */
 	/* border-left: 2px solid gray; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0px 0px 20px 0px;
 }
-.get-started-btn-div {
-	/* position: absolute; */
+
+.ul-content {
+	line-height: 25px;
+	/* margin: 30px; */
+}
+.ul-content li {
+	font-size: 17px;
+	color: black;
+}
+.get-started-list-div {
+	display: flex;
+}
+
+.event-contents {
+	background-color: black;
+	padding: 20px;
+}
+
+.event-contents h2 {
+	margin-bottom: 30px;
+}
+
+.get-started-list-div {
+	text-align: center;
+	align-items: center;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	margin-right: 20px;
+	padding: 20px 10px;
+}
+
+.get-started-list-div h1 {
+	margin-right: 20%;
+	color: black;
+}
+.get-started-list-div button {
+	padding: 5px 10px;
+	/* background-color: rgba(249, 86, 79, 0.1); */
+	border: 3px solid gray;
+	font-weight: 700;
+	cursor: pointer;
 	/* color: white; */
 }
 
-.get-started-btn-div h3 {
-	font-size: 40px;
-}
-.get-started-btn-div p {
-	color: gray;
-	letter-spacing: 1px;
-	font-size: 20px;
-}
-.get-started-content {
-	margin: 20px 0px;
-}
-.get-started-btn {
-	margin-top: 10px;
-	padding: 15px 20px;
-	color: gray;
-	font-weight: 700;
-	border: 2.5px solid gray;
-	/* border-radius: 5px; */
-	background-color: rgba(128, 128, 128, 0.3);
-	border-radius: 5px;
-}
-
-.get-started-btn:hover {
-	transition: 0.2s ease-in-out;
-	cursor: pointer;
-	background-color: transparent;
-	text-decoration: underline;
-	/* color: #da7297; */
-}
-.services-ul-div {
-	margin: 30px;
-	padding-bottom: 30px;
-	border: 1px solid gray;
-	border-radius: 5px;
-}
-.services-ul-h1 {
-	margin: 20px 0px;
-	text-decoration: underline;
-}
-.services {
-	cursor: pointer;
-	font-style: italic;
-	list-style: none;
-	line-height: 40px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	color: #36454f;
-}
-
-.services li {
-}
-.service-li h2:hover {
-	transition: all 0.5s;
-	/* transition: 0.5s; */
-	color: black;
-	/* font-style: normal; */
-}
-
-.img-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-items: center;
-	border-radius: 5px;
-	background-color: white;
-	margin: 100px;
-	padding: 50px 0px;
-}
-.img-container img {
-	width: 70%;
-	aspect-ratio: 1/1;
-	border-radius: 5px;
+.inner-inner-component-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -121,13 +107,12 @@
 		width: 100%;
 		display: grid;
 		grid-template-columns: 1fr;
-		
 	}
-    .logo-img{
+	.logo-img {
 		width: 100%;
 		aspect-ratio: 1/0.6;
 	}
-	.logo-img img{
+	.logo-img img {
 		width: 100%;
 		object-fit: cover;
 		margin-top: -55px;
@@ -138,7 +123,6 @@
 		margin-bottom: 10px;
 	}
 
-	
 	.get-started-btn-div h3 {
 		font-size: 25px;
 	}
@@ -146,7 +130,7 @@
 		font-size: 15px;
 	}
 
-	.get-started-btn{
+	.get-started-btn {
 		margin-left: 70px;
 	}
 }
