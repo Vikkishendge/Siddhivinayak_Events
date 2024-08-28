@@ -133,12 +133,14 @@ body {
 	text-align: center;
 	justify-content: space-around;
 	font-size: 25px;
-	background-color: #f9564f;
+	/* background-color: #f9564f; */
+	background-color: pink;
 	padding: 10px 0px;
 }
 .services-provided-div {
 	text-align: center;
 	margin-top: 60px;
+	background-color: white;
 }
 .services-provided-div h2 
 {
