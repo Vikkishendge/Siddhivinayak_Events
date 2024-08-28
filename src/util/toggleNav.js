@@ -7,5 +7,4 @@ async function toggleMenu() {
 	} else {
 		menuList.style.maxHeight = "0px";
 	}
-	console.log("clicked");
 }
