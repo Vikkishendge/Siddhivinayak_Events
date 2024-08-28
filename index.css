@@ -107,16 +107,16 @@ body {
 	align-items: center;
 }
 
-<<<<<<< HEAD
+
 .services-cards-holder {
 	padding: 0px 20px 20px 20px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 .card {
-	
+	cursor: pointer;
 	margin: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	text-align: center;
 	border-radius: 5px;
 	
@@ -127,7 +127,7 @@ body {
 	margin-bottom: 10px;
 	object-fit: cover;
 	border-radius: 5px;
-=======
+}
 .event_component {
 	display: flex;
 	text-align: center;
@@ -135,7 +135,14 @@ body {
 	font-size: 25px;
 	background-color: #f9564f;
 	padding: 10px 0px;
->>>>>>> 758144d18e87ca1304fb6d12d01ba1b89485923f
+}
+.services-provided-div {
+	text-align: center;
+	margin-top: 60px;
+}
+.services-provided-div h2 
+{
+	font-size: 50px;
 }
 @media (max-width: 600px) {
 	.main-component {
