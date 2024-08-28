@@ -116,7 +116,7 @@ h2 {
 		font-size: 1.8rem;
 		text-align: center;
 		line-height: 1.2em;
-		font-family: "Kalam", cursive;
+		/* font-family: "Kalam", cursive; */
 	}
 	.item {
 		width: 90%;
