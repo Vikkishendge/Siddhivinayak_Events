@@ -107,6 +107,14 @@ body {
 	align-items: center;
 }
 
+.event_component {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	font-size: 25px;
+	background-color: #f9564f;
+	padding: 10px 0px;
+}
 @media (max-width: 600px) {
 	.main-component {
 		width: 100%;
