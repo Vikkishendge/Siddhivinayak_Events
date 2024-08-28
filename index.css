@@ -133,6 +133,10 @@ body {
 	border-radius: 5px;
 	filter: grayscale(70%);
 }
+.card img:hover {
+	transform: scale(1.1);
+	transition: all ease 0.5s;
+}
 .card h1 {
 	position: absolute;
 	/* transform: translateX(50%) translateY(200%); */
@@ -241,6 +245,8 @@ body {
 		border-radius: 5px;
 		/* text-align: center; */
 	}
+
+	
 
 	.card img {
 		width: 100%;
