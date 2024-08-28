@@ -107,10 +107,7 @@ body {
 	align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 6db4f035b8322e764b5922d6d2dbea0c6a1d4992
 .services-cards-holder {
 	padding: 0px 20px 20px 20px;
 	display: grid;
@@ -136,9 +133,7 @@ body {
 	text-align: center;
 	justify-content: space-around;
 	font-size: 25px;
-<<<<<<< HEAD
 	padding: 10px 0px;
-=======
 	/* background-color: #f9564f; */
 	background-color: pink;
 	padding: 10px 0px;
@@ -151,7 +146,6 @@ body {
 .services-provided-div h2 
 {
 	font-size: 50px;
->>>>>>> 6db4f035b8322e764b5922d6d2dbea0c6a1d4992
 }
 @media (max-width: 600px) {
 	.main-component {
