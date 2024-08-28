@@ -5,13 +5,13 @@
 
 .footer {
 	background-color: #1a1a1a;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	width: 100%;
 	/* padding: 2vh 0vh 2vh 0vh; */
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	color: white;
 	padding: 20px;
+	bottom: 1;
+	/* top: 0; */
 }
 
 .footer-ul {

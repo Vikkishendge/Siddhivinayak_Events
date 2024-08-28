@@ -5,9 +5,13 @@
 	font-family: "Crimson Pro" sarif;
 }
 
+body {
+	background-color:  #FDF4F5;
+}
+
 .main {
 	width: 100%;
-	height: 55vh;
+	/* height: 55vh; */
 }
 
 .bgimg img {

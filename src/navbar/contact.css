@@ -5,31 +5,39 @@
 	font-family: "Crimson Pro", serif;
 }
 
+body {
+	background-color:  #FDF4F5;
+}
+
 .main {
 	width: 100%;
-	height: 55vh;
+	/* height: 55vh;	 */
+	/* background-color:  red; */
 }
 
 .bgimg img {
 	width: 100%;
-	height: 55vh;
-	position: absolute;
+	aspect-ratio: 1/0.2;
+	/* position: absolute; */
 	object-fit: cover;
 }
 .bgimg h1 {
 	position: absolute;
 	display: inline-block;
-	padding-top: 180px;
+	padding-top: 150px;
 	padding-left: 40px;
 	color: white;
-	z-index: 997;
+	/* z-index: 997; */
 	font: bold;
 	font-size: 100px;
 }
 .main-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin: 20px;
+	margin: 20px 40px;
+	padding: 20px;
+	/* background-color:  #F1EAFF; */
+	background-color: white;
 }
 
 .phone-holder {

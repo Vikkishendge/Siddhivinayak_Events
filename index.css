@@ -3,22 +3,21 @@
 	margin: 0px;
 }
 
+body {
+	background-color:  #FDF4F5;
+}
 
 .main-component {
-	/* position: relative; */
-	/* display: flex; */
-	/* margin: 50px; */
+
+	/* background-color:  #F1EAFF; */
 	display: grid;
 	grid-template-columns: 0.75fr 1fr;
-	/* width: 100%; */
-	padding-top: 125px;
-
 	justify-content: space-around;
-	/* align-items: center; */
-
+	height: 100%;
 	text-align: start;
 	color: #f9564f;
-	margin: 0px 40px 60px 40px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .logo-img {
 	display: flex;

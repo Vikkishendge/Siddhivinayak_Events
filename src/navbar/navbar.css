@@ -16,7 +16,7 @@ nav {
 	justify-content: space-between;
 	/* background: black; */
 	background-color: white;
-	position: fixed;
+	/* position: fixed; */
 	height: 70px;
 	width: 100%;
 	z-index: 999;
