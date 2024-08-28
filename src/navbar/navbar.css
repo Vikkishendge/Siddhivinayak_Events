@@ -9,17 +9,6 @@
 	display: none;
 }
 
-/* nav {
-	padding: 10px 30px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	background: black;
-	position: fixed;
-	height: 70px;
-	width: 100%;
-	z-index: 999;
-} */
 nav {
 	padding: 10px 30px;
 	display: flex;
@@ -31,12 +20,12 @@ nav {
 	height: 70px;
 	width: 100%;
 	z-index: 999;
-	border-bottom: 5px solid gray;
+	/* border-bottom: 5px solid gray; */
 }
 
-/* .logo {
-	color: #fff;
-} */
+ .logo {
+	color: black;
+} 
 
 nav ul {
 	display: flex;
@@ -80,7 +69,7 @@ nav ul li a:hover {
 	nav ul li {
 		margin: 10px;
 		padding-top: 0;
-		border-bottom: 1px solid gray;
+		/* border-bottom: 1px solid gray; */
 	}
 	nav ul li a {
 		text-decoration: none;
